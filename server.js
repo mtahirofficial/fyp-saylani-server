@@ -9,7 +9,7 @@ var server = express();
 server.use(bodyParser.urlencoded({ extended: false }))
 server.use(bodyParser.json());
 // Mongoo Start
-mongoose.connect("mongodb://127.0.0.1:27017/tesla") //Connection
+mongoose.connect("mongodb://tb:123qwe@ds123196.mlab.com:23196/tb") //Connection
 // Create Schema
 var users = new mongoose.Schema({
     fName: String,
